@@ -1,0 +1,212 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "year",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "month",
+						"type": "uint256"
+					}
+				],
+				"name": "layBaoCao",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256[2]",
+								"name": "TienMatVaTuongDuong",
+								"type": "uint256[2]"
+							},
+							{
+								"internalType": "uint256[2]",
+								"name": "DauTuTaiChinh",
+								"type": "uint256[2]"
+							},
+							{
+								"internalType": "uint256[2]",
+								"name": "PhaiThuNganHan",
+								"type": "uint256[2]"
+							},
+							{
+								"internalType": "uint256[2]",
+								"name": "HangTonKhoDauNam",
+								"type": "uint256[2]"
+							},
+							{
+								"internalType": "uint256[2]",
+								"name": "TaiSanNganHangKhac",
+								"type": "uint256[2]"
+							}
+						],
+						"internalType": "struct TaiSanNganHan",
+						"name": "_taiSanNganHan",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256[2]",
+								"name": "PhaiThuDaiHan",
+								"type": "uint256[2]"
+							},
+							{
+								"internalType": "uint256[2]",
+								"name": "TaiSanCoDinh",
+								"type": "uint256[2]"
+							},
+							{
+								"internalType": "uint256[2]",
+								"name": "BatDongSanDauTu",
+								"type": "uint256[2]"
+							},
+							{
+								"internalType": "uint256[2]",
+								"name": "TaiSanDoDangDaiHan",
+								"type": "uint256[2]"
+							},
+							{
+								"internalType": "uint256[2]",
+								"name": "TaiSanDaiHanKhac",
+								"type": "uint256[2]"
+							}
+						],
+						"internalType": "struct TaiSanDaiHan",
+						"name": "_taiSanDaiHan",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256[2]",
+								"name": "NoNganHan",
+								"type": "uint256[2]"
+							},
+							{
+								"internalType": "uint256[2]",
+								"name": "PhaiTraNganHan",
+								"type": "uint256[2]"
+							},
+							{
+								"internalType": "uint256[2]",
+								"name": "NoDaiHan",
+								"type": "uint256[2]"
+							},
+							{
+								"internalType": "uint256[2]",
+								"name": "VongVonChuSoHuu",
+								"type": "uint256[2]"
+							}
+						],
+						"internalType": "struct VongVon",
+						"name": "_vongVon",
+						"type": "tuple"
+					}
+				],
+				"name": "themBaoCao",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newKeToan",
+						"type": "address"
+					}
+				],
+				"name": "themKeToan",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/BaoCaoTaiChinh.sol": "DanhSachBaoCaoTaiChinh"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/BaoCaoTaiChinh.sol": {
+			"keccak256": "0xe8f91c43a859f6938e7e87975a2d684dcf68d53c7d4e5d7278135a9e8ccec151",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b818166328be076e33c68d3333e66d790650b700681be61b926986fe64755c66",
+				"dweb:/ipfs/QmXovadidKSLF9kD5JcQ4pquNXJmtEiMHUALeNLkzWF3C6"
+			]
+		}
+	},
+	"version": 1
+}

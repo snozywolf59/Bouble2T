@@ -1,0 +1,113 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"components": [
+									{
+										"internalType": "string",
+										"name": "name",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "add",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "contact",
+										"type": "string"
+									}
+								],
+								"internalType": "struct Nhap.Ben",
+								"name": "b",
+								"type": "tuple"
+							},
+							{
+								"internalType": "uint256",
+								"name": "amount",
+								"type": "uint256"
+							},
+							{
+								"internalType": "enum Nhap.TYPE",
+								"name": "t",
+								"type": "uint8"
+							},
+							{
+								"internalType": "string",
+								"name": "description",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "day",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "month",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "year",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Nhap.Transaction",
+						"name": "newTransaction",
+						"type": "tuple"
+					}
+				],
+				"name": "addTransaction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/TransactionHistory.sol": "Nhap"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/TransactionHistory.sol": {
+			"keccak256": "0x3470be4e726a424f06e40060fa950cafc203bec14cd7127c3395f881693b2f97",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ac938fc887405cb615fbef07613d9a28429714a631c95334552dcea745b40841",
+				"dweb:/ipfs/QmXnNoFWY8S4kRLbkTU4xEAHdzgYAHZjBchEabsfrUgvNw"
+			]
+		}
+	},
+	"version": 1
+}

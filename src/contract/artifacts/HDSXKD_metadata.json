@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "quanLy",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/HDSXKD.sol": "HDSXKD"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/HDSXKD.sol": {
+			"keccak256": "0x2bc884950373bb72b94f2ab03aeef8b391e68128196d39cc7c763fc4662df0e5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://165463e96ff9037e26d40cf216daa390e1af0a9c48855ffeb642f052dc0f357f",
+				"dweb:/ipfs/QmQS8a5zsBwZi7mxvnoVftS58sQCDaARiUhJQMmmitKrSG"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,158 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "year",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "month",
+						"type": "uint256"
+					}
+				],
+				"name": "baoCaoDangNgo",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "year",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "month",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "taiSan",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "noPhaiTra",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "vonChuSoHuu",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "doanhThu",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "chiPhi",
+						"type": "uint256"
+					}
+				],
+				"name": "themBaoCao",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "year",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "month",
+						"type": "uint256"
+					}
+				],
+				"name": "xemBaoCao",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/HoaDon.sol": "DanhSachBaoCao"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/HoaDon.sol": {
+			"keccak256": "0x42c3cceae0df03d3a14a3d2c629541f532aa0032fa524ea57b1ec7197db1ae18",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1de2d0255a6b1b3878e223318d5df9e016b073be009bdcdb9a879d415c92dc0c",
+				"dweb:/ipfs/QmVd1F2sjy3Rm5qsKjx7fpn2tJbTteWqquDrigsn2JYviX"
+			]
+		}
+	},
+	"version": 1
+}

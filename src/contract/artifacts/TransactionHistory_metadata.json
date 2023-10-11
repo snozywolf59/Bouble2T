@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/TransactionHistory.sol": "TransactionHistory"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/TransactionHistory.sol": {
+			"keccak256": "0xb8ca0292e3047756fe02386c7003c26f0faf99f77a175ab733917d20348abd03",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://26527eecac2fe0f7a6cf85ba11ebd9033f2ffb0904e8b56a9dfe72ee6e64cb4a",
+				"dweb:/ipfs/QmPEhbfXYfNBwAPzcmtpnYsaAcRemoCBTHP8R4CXAyzAAP"
+			]
+		}
+	},
+	"version": 1
+}
